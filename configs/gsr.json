@@ -1,0 +1,10 @@
+{
+  "grain_split_deg": 5.0,
+  "grain_match_deg": 10.0,
+  "grain_min_match": 0.05,
+  "grain_sigma_pixels": 1.0,
+  "grain_shape": "gaussian",
+  "grain_absent_logit": -6.0,
+  "grain_q_sigma_pixels": 0.75,
+  "threads": 2
+}

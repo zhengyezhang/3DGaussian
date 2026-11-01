@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "manuscript": "2026-10-draft-zzy-npj-3DGaussian (1).zip",
+  "manuscript_sha256": "58342a5bcb8854e06d0d1796a38d85d0c11581fc4a8bb309a7f8f48aa30dd1e2",
+  "tests": {
+    "unittest": 10,
+    "real_subregions": {
+      "datasets": [
+        "in100",
+        "in718",
+        "ti64",
+        "zrnb"
+      ],
+      "shape_zyx": [
+        13,
+        16,
+        16
+      ],
+      "methods": [
+        "cgf",
+        "tgs",
+        "gsr"
+      ],
+      "q_phase_valid_exact_matches": 12,
+      "additional_ablation_checks": 9,
+      "maximum_laplace_cgf_quaternion_difference": 5.960464477539063e-08
+    },
+    "data_preparation": "IN100 conversion, registration and existing crop arrays exactly match the original experiment inputs",
+    "analysis": "Ti64 grain geometry, Ti64 and Zircaloy/Nb connection cases, and equal-budget Ti64 scores match stored reference analyses",
+    "extracted_package": "10 tests; CGF paired, TGS and GSR run; native and anchored geometry; connection comparisons; CSV summary",
+    "dependencies": "Core and external dependency resolution passed with pip dry-run",
+    "external_models": {
+      "Q-RBSA": "one CPU optimization step, full 5,952,782-parameter architecture, real IN10064-cubed fit/predict/score passed",
+      "PolyMicros": "verified released checkpoint, strict state load, full 518,042,502-parameter 64-cubed CPU forward passed",
+      "scope": "software integration tests; not full paper experiment reruns"
+    }
+  },
+  "full_paper_experiments_rerun": false,
+  "external_models_retrained_for_paper": false
+}

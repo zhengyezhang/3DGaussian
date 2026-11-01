@@ -1,0 +1,7 @@
+{
+  "grain_shape": "gaussian",
+  "grain_sigma_pixels": 1.5,
+  "grain_q_sigma_pixels": 0.65,
+  "grain_split_deg": 5,
+  "threads": 2
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "method": "nearest",
+    "name": "nearest"
+  },
+  {
+    "method": "sgf",
+    "name": "sgf_epochs0_5"
+  },
+  {
+    "method": "sgf",
+    "name": "sgf_epochs5_0"
+  },
+  {
+    "method": "cgf",
+    "name": "cgf_epochs0_5"
+  },
+  {
+    "method": "cgf",
+    "name": "cgf_epochs5_0"
+  },
+  {
+    "method": "tgs",
+    "name": "tgs_default"
+  },
+  {
+    "method": "tgs",
+    "name": "tgs_strict"
+  },
+  {
+    "method": "tgs",
+    "name": "tgs_strict_equal_confidence"
+  },
+  {
+    "method": "tgs",
+    "name": "tgs_strict_local_motion"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_gaussian_s1_q0_75"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_gaussian_s1_q0"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_gaussian_s1_5_q0_65"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_distance_s1_q0"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_gaussian_s2_q0_75"
+  },
+  {
+    "method": "gsr",
+    "name": "gsr_gaussian_s2_q0"
+  }
+]

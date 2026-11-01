@@ -1,0 +1,17 @@
+{
+  "transport_levels": 3,
+  "transport_iterations": 6,
+  "transport_window_sigma": 0.75,
+  "transport_flow_sigma": 0.35,
+  "transport_robust_eps": 0.1,
+  "transport_ridge": 0.001,
+  "transport_step_limit": 1.0,
+  "transport_max_displacement": 8.0,
+  "transport_splat_sigma": 0.55,
+  "transport_candidates": 6,
+  "transport_orientation_gate_deg": 1.0,
+  "transport_merge_gate_deg": 2.0,
+  "transport_motion_scale": 1.0,
+  "transport_confidence_floor": 0.35,
+  "transport_match_scale_deg": 10.0
+}

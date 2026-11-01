@@ -1,0 +1,99 @@
+{
+  "in100": {
+    "dataset": "in100",
+    "filename": "Small_IN100_dream3d_v3.tar.gz",
+    "url": "https://github.com/BlueQuartzSoftware/simplnx/releases/download/Data_Archive/Small_IN100_dream3d_v3.tar.gz",
+    "size_bytes": 72250062,
+    "expected_size_bytes": 72250062,
+    "sha256": "fd5195773f03f1f8ded3bf0b4d9b46b3ba82d855f33aa28c297150fd6a748492",
+    "raw_directory": "in100_processed",
+    "sha256_reference": "Recorded source bytes used for the experiments",
+    "title": "Small IN100",
+    "record_url": "https://github.com/BlueQuartzSoftware/simplnx/releases/tag/Data_Archive",
+    "license": "See the upstream simplnx data-release terms",
+    "processed_filename": "in100_registered.npz"
+  },
+  "in718": {
+    "dataset": "in718",
+    "source_variant": "UCSB author-hosted 718_final_yield.dream3d; not byte-verified against Dryad voxelized.zip",
+    "url": "https://bisque2.ece.ucsb.edu/blob_service/00-C8rwSY7hvRF3HNpckTRM77",
+    "resource_url": "https://bisque2.ece.ucsb.edu/data_service/00-C8rwSY7hvRF3HNpckTRM77?view=deep",
+    "source_size_bytes": 11401187365,
+    "etag": "\"1777422947.7337213-11401187365\"",
+    "source_last_modified": "2026-04-29T00:35:47Z",
+    "acquisition": "HTTP byte-range extraction of contiguous uncompressed HDF5 arrays; entire 11.4GB file not downloaded",
+    "arrays": {
+      "EulerAngles": {
+        "offset_bytes": 1940721044,
+        "length_bytes": 1455420960,
+        "dtype": "<f4",
+        "shape": [
+          526,
+          420,
+          549,
+          3
+        ],
+        "sha256": "79c7fbb890d95fcefd0b17a2f35ca02307fefa2c5dfc30d832b22116ed326c9f"
+      },
+      "Phases": {
+        "offset_bytes": 7034700548,
+        "length_bytes": 485140320,
+        "dtype": "<i4",
+        "shape": [
+          526,
+          420,
+          549
+        ],
+        "sha256": "b05ec9cb0f57d37b595376f8a9c867809c321c8ccc581228726bb85616703f3f"
+      },
+      "FeatureIds": {
+        "offset_bytes": 3881282324,
+        "length_bytes": 485140320,
+        "dtype": "<i4",
+        "shape": [
+          526,
+          420,
+          549
+        ],
+        "sha256": "bd530308a41aa14b60e1f36a482fff207813c4c5ceacac34def5e612b90945c3"
+      }
+    },
+    "raw_directory": "in718_mirror",
+    "sha256_reference": "Recorded source bytes used for the experiments",
+    "title": "Inconel 718",
+    "record_url": "https://datadryad.org/dataset/doi:10.5061/dryad.83bk3j9sj",
+    "license": "The original Dryad record is CC0; the acquired UCSB variant exposes no separate license",
+    "processed_filename": "in718.npz"
+  },
+  "ti64": {
+    "dataset": "ti64",
+    "filename": "Ti_64_equiaxed_6_15_2017_final.dream3d",
+    "url": "https://bisque2.ece.ucsb.edu/blob_service/00-oiu4R8ixJjcEYe7k5dKvt3",
+    "size_bytes": 1189862542,
+    "expected_size_bytes": 1189862542,
+    "sha256": "f90e5b658dfbfa7c202c6284499a8b065dd79f54d67f9a32c4cf9cd9f460d5b2",
+    "raw_directory": "ti64",
+    "sha256_reference": "Recorded source bytes used for the experiments",
+    "title": "Equiaxed Ti-6Al-4V",
+    "record_url": "https://bisque2.ece.ucsb.edu/data_service/00-JLL6nPPamosxg8VQWdqrJ4?view=deep",
+    "license": "No explicit separate license in the retrieved BisQue metadata",
+    "processed_filename": "ti64.npz"
+  },
+  "zrnb": {
+    "dataset": "zrnb",
+    "filename": "ctf.zip",
+    "url": "https://zenodo.org/records/3785085/files/ctf.zip?download=1",
+    "size_bytes": 999775934,
+    "expected_size_bytes": 999775934,
+    "sha256": "7c08748a8c93ea2414f00b3daecc3b14b3bb887e560866943af62b434f6a1336",
+    "raw_directory": "zrnb",
+    "sha256_reference": "Recorded source bytes used for the experiments",
+    "title": "Zircaloy-4 + 7 wt% Nb",
+    "record_url": "https://zenodo.org/records/3785085",
+    "license": "CC BY 4.0",
+    "publisher_checksum": {
+      "md5": "e74d10f6a7addadd060ea873bcc365e7"
+    },
+    "processed_filename": "zrnb_registered.npz"
+  }
+}

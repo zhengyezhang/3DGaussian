@@ -1,0 +1,7 @@
+-r requirements.txt
+gdown==6.4.2
+einops==0.8.2
+lightning==2.6.6
+torchmetrics==1.9.0
+tqdm==4.70.1
+matplotlib==3.11.2

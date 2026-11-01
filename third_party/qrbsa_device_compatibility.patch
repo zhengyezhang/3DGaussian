@@ -1,0 +1,26 @@
+diff --git a/mat_sci_torch_quats/losses.py b/mat_sci_torch_quats/losses.py
+index 19fd8e3..b6723d7 100644
+--- a/mat_sci_torch_quats/losses.py
++++ b/mat_sci_torch_quats/losses.py
+@@ -107,7 +107,7 @@ class Loss:
+                 #self.quat_dim = quat_dim
+         def __call__(self,q1,q2):                
+                 if self.syms is not None:
+-                        self.syms = self.syms.cuda()
++                        self.syms = self.syms.to(device=q1.device, dtype=q1.dtype)
+                         q1_w_syms = outer_prod(q1,self.syms)
+                         if q2 is not None: q2 = q2[...,None,:]
+                         dists = self.dist_func(q1_w_syms,q2)
+diff --git a/mat_sci_torch_quats/quats.py b/mat_sci_torch_quats/quats.py
+index 79f2a01..e9c51d6 100644
+--- a/mat_sci_torch_quats/quats.py
++++ b/mat_sci_torch_quats/quats.py
+@@ -129,7 +129,7 @@ def fz_reduce(q,syms):
+         #import pdb; pdb.set_trace()
+         shape = q.shape
+         q = q.reshape((-1,4))
+-        syms = syms.cuda()
++        syms = syms.to(device=q.device, dtype=q.dtype)
+         q_w_syms = outer_prod(q,syms)
+         dists = rot_dist(q_w_syms)
+         inds = dists.min(-1)[1]
